@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Keep repository metadata and notebook deliverables
+!.gitignore
+!README.md
+!*.ipynb
+
+# Ignore local environments and editor files explicitly
+.venv/
+.venv-tf/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
