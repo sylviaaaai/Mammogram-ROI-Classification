@@ -16,7 +16,7 @@ This repository summarizes my deep learning experiments on mammogram ROI images,
 
 ## Recommended Reading Order
 
-1. `ROI.ipynb`
+1. `ROI_Cut.ipynb`
 2. `ConvNeXt.ipynb`
 3. `VIT.ipynb`
 4. `Swin.ipynb`
