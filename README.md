@@ -1,4 +1,4 @@
-# Mammogram ROI Transfer Learning Experiments
+# Mammogram ROI Classification
 
 This repository summarizes my deep learning experiments on mammogram ROI images, with a focus on TensorFlow / Keras transfer learning and fair comparison across multiple vision backbones.
 
@@ -12,11 +12,11 @@ This repository summarizes my deep learning experiments on mammogram ROI images,
 - `ResNet50_Best_Tuned.ipynb`: Tuned ResNet50 version for side-by-side performance comparison.
 - `PRE.ipynb`: Early preprocessing exploration notebook.
 - `ROI_Cut.ipynb`: ROI extraction and cropping notebook.
-- `ResNet50_Colab_Baseline.ipynb`: Early Colab-based ResNet50 baseline notebook.
+- `Untitled0.ipynb`: Early Colab-based training draft.
 
 ## Recommended Reading Order
 
-1. `ConvNeXt_Unfreeze_Comparison.ipynb`
+1. `PRE.ipynb`
 2. `ConvNeXt.ipynb`
 3. `VIT.ipynb`
 4. `Swin.ipynb`
@@ -27,14 +27,6 @@ This repository summarizes my deep learning experiments on mammogram ROI images,
 - The repository does not include datasets or trained weights.
 - Some notebooks still contain local disk paths or older Colab paths, so they need to be updated for a new environment.
 - If you use DDSM or another mammogram ROI dataset, update variables such as `data_dir` before running training cells.
-
-## Dataset
-
-The original mammogram images used in this project come from the Mini-DDSM dataset on Kaggle:
-
-https://www.kaggle.com/datasets/cheddad/miniddsm2
-
-This repository does not include the dataset itself. Users need to download the images separately and update the dataset paths in the notebooks before running the experiments. Some notebooks in this repository further process the original mammogram images into ROI-based inputs for classification experiments.
 
 ## Upload Scope
 
